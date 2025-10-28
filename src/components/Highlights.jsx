@@ -10,7 +10,7 @@ const Highlights = () => {
         gsap.to(['.left-column', '.right-column'], {
             scrollTrigger: {
                 trigger: '#highlights',
-                start: isMobile ? 'bottom botton' : 'top top'
+                start: isMobile ? 'bottom bottom' : 'top top'
             },
             y: 0,
             opacity: 1,
@@ -23,7 +23,7 @@ const Highlights = () => {
     return (
         <section id="highlights">
             <h2>There's never been a better time to upgrade.</h2>
-            <h3>Here's what you gent with the new MacBook Pro.</h3>
+            <h3>Here's what you get with the new MacBook Pro.</h3>
 
             <div className="masonry">
                 <div className="left-column">
